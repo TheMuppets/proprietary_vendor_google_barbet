@@ -137,6 +137,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
         <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
         <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.lily.setupwizard">
@@ -244,4 +246,11 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.QUERY_USERS"/>
     </privapp-permissions>
 
+    <!-- go/overlay-companion-app. Installed only on userdebug/eng builds. -->
+    <privapp-permissions package="com.google.android.apps.overlay.companion">
+        <!-- Used to detect user with enrolled face (may be different from the current user). http://b/272294024 -->
+        <permission name="android.permission.QUERY_USERS"/>
+        <!-- Used to detect preferred user profile for Face Unlock (may be different from the current user). -->
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
 </permissions>
