@@ -1,4 +1,8 @@
-<manifest version="1.0" type="device">
+<!--
+    Input:
+        vendor/google_nos/host/android/hals/keymaster/hidl/citadel/android.hardware.keymaster@4.1-service.citadel.xml
+-->
+<manifest version="7.0" type="device">
     <hal format="hidl">
         <name>android.hardware.keymaster</name>
         <transport>hwbinder</transport>

@@ -11,6 +11,7 @@ android_app_import {
 	name: "VZWAPNLib",
 	owner: "google",
 	apk: "proprietary/product/app/VZWAPNLib/VZWAPNLib.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -44,6 +45,7 @@ android_app_import {
 	name: "CarrierSettings",
 	owner: "google",
 	apk: "proprietary/product/priv-app/CarrierSettings/CarrierSettings.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -56,6 +58,7 @@ android_app_import {
 	name: "CarrierWifi",
 	owner: "google",
 	apk: "proprietary/product/priv-app/CarrierWifi/CarrierWifi.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -104,6 +107,7 @@ android_app_import {
 	name: "DeviceIntelligenceNetworkPrebuilt",
 	owner: "google",
 	apk: "proprietary/product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -116,6 +120,7 @@ android_app_import {
 	name: "DevicePersonalizationPrebuiltPixel2020",
 	owner: "google",
 	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -140,6 +145,7 @@ android_app_import {
 	name: "EuiccGoogle",
 	owner: "google",
 	apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -152,6 +158,7 @@ android_app_import {
 	name: "HardwareInfo",
 	owner: "google",
 	apk: "proprietary/product/priv-app/HardwareInfo/HardwareInfo.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -164,6 +171,7 @@ android_app_import {
 	name: "HotwordEnrollmentOKGoogleRT5514P",
 	owner: "google",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleRT5514P/HotwordEnrollmentOKGoogleRT5514P.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -176,6 +184,7 @@ android_app_import {
 	name: "HotwordEnrollmentXGoogleRT5514P",
 	owner: "google",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleRT5514P/HotwordEnrollmentXGoogleRT5514P.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -236,6 +245,7 @@ android_app_import {
 	name: "WfcActivation",
 	owner: "google",
 	apk: "proprietary/product/priv-app/WfcActivation/WfcActivation.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -303,6 +313,7 @@ android_app_import {
 	name: "CarrierSetup",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/CarrierSetup/CarrierSetup.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -339,6 +350,7 @@ android_app_import {
 	name: "EuiccSupportPixel",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -351,6 +363,7 @@ android_app_import {
 	name: "EuiccSupportPixelPermissions",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -375,6 +388,7 @@ android_app_import {
 	name: "MyVerizonServices",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -399,6 +413,7 @@ android_app_import {
 	name: "grilservice",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/grilservice/grilservice.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -662,6 +677,7 @@ android_app_import {
 	name: "adreno_graphics_driver",
 	owner: "google",
 	apk: "proprietary/vendor/app/adreno_graphics_driver/adreno_graphics_driver.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,

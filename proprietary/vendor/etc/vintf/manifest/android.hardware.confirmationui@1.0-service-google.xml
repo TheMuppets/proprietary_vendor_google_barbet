@@ -1,11 +1,11 @@
-<manifest version="1.0" type="device">
+<!--
+    Input:
+        vendor/google_devices/common/proprietary/confirmatioui_hal/android.hardware.confirmationui@1.0-service-google.xml
+-->
+<manifest version="7.0" type="device">
     <hal format="hidl">
         <name>android.hardware.confirmationui</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-        <name>IConfirmationUI</name>
-            <instance>default</instance>
-        </interface>
+        <fqname>@1.0::IConfirmationUI/default</fqname>
     </hal>
 </manifest>

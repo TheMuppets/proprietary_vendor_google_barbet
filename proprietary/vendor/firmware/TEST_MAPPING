@@ -2,6 +2,7 @@
   "presubmit": [
     {
       "name": "GtsMediaTestCases",
+      "keywords": ["internal"],
       "options" : [
         {
           "include-annotation": "android.platform.test.annotations.SocPresubmit"
@@ -16,4 +17,3 @@
     }
   ]
 }
-
