@@ -2,7 +2,7 @@
     Input:
         vendor/qcom/sm7250/proprietary/media/codec2/service/1.0/c2_manifest_vendor.xml
 -->
-<manifest version="7.0" type="device">
+<manifest version="8.0" type="device">
     <hal format="hidl">
         <name>android.hardware.media.c2</name>
         <transport>hwbinder</transport>
