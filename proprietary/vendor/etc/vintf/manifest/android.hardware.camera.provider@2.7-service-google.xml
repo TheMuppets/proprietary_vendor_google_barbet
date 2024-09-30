@@ -1,0 +1,11 @@
+<!--
+    Input:
+        hardware/google/camera/common/hal/aidl_service/android.hardware.camera.provider@2.7-service-google.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="aidl">
+        <name>android.hardware.camera.provider</name>
+        <version>3</version>
+        <fqname>ICameraProvider/internal/0</fqname>
+    </hal>
+</manifest>

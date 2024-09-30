@@ -670,6 +670,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/barbet/proprietary/vendor/etc/init/android.hardware.authsecret-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.authsecret-service.citadel.rc \
     vendor/google/barbet/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.2-service.fpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.2-service.fpc.rc \
     vendor/google/barbet/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/google/barbet/proprietary/vendor/etc/init/android.hardware.camera.provider@2.7-service-google.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.7-service-google.rc \
     vendor/google/barbet/proprietary/vendor/etc/init/android.hardware.confirmationui@1.0-service-google.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.confirmationui@1.0-service-google.rc \
     vendor/google/barbet/proprietary/vendor/etc/init/android.hardware.drm-service.widevine-v17.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine-v17.rc \
     vendor/google/barbet/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
@@ -1312,6 +1313,7 @@ PRODUCT_PACKAGES += \
     libmaxxaudio \
     libmdmdetect \
     libmdsprpc \
+    libmedia_ecoservice \
     libminkdescriptor \
     libminksocket \
     libmm-color-convertor \
@@ -1635,6 +1637,8 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     lib_goog_chi_node_utils \
     lib_goog_metadata_utils \
+    lib_profiler \
+    lib_sensor_listener \
     libcamerapostproc \
     libcamximageformatutils \
     libcamxncs \
@@ -1667,6 +1671,8 @@ PRODUCT_PACKAGES += \
     libgooglecamera.proto_message.converter.ghawb \
     libgooglecamera.proto_message.converter \
     libgooglecamera.proto_message.protos \
+    libgooglecamerahal \
+    libgooglecamerahalutils \
     libgooglecamerahwl_impl \
     libhalide_hexagon_host \
     libhexagon_nn_stub \
@@ -1734,6 +1740,7 @@ PRODUCT_PACKAGES += \
     gpu_profiling_vulkan_layer \
     com.google.android.camera.experimental2020 \
     android.hardware.authsecret-service.citadel.xml \
+    android.hardware.camera.provider@2.7-service-google.xml \
     android.hardware.confirmationui@1.0-service-google.xml \
     android.hardware.identity.strongbox.xml \
     android.hardware.keymaster@4.1-service.citadel.xml \
@@ -1765,6 +1772,7 @@ PRODUCT_PACKAGES += \
     android.hardware.authsecret-service.citadel \
     android.hardware.biometrics.fingerprint@2.2-service.fpc \
     android.hardware.bluetooth@1.0-service-qti \
+    android.hardware.camera.provider@2.7-service-google \
     android.hardware.confirmationui@1.0-service-google \
     android.hardware.drm-service.widevine-v17 \
     android.hardware.gatekeeper@1.0-service-qti \

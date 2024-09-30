@@ -5,8 +5,6 @@
 soong_namespace {
 	imports: [
 		"device/google/barbet",
-		"hardware/google/av",
-		"hardware/google/camera",
 		"hardware/google/interfaces",
 		"hardware/google/pixel",
 		"hardware/qcom/sm7250/display",
@@ -4887,6 +4885,27 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmdsprpc.so"],
 			shared_libs: ["libhidlbase", "libhardware", "libutils", "vendor.qti.hardware.dsp@1.0", "liblog", "libc", "libcutils", "libion", "libc++", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmedia_ecoservice",
+	owner: "google",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmedia_ecoservice.so"],
+			shared_libs: ["libbinder_ndk", "libcutils", "liblog", "libutils", "libcodec2_hidl@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmedia_ecoservice.so"],
+			shared_libs: ["libbinder_ndk", "libcutils", "liblog", "libutils", "libcodec2_hidl@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -11298,6 +11317,40 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "lib_profiler",
+	owner: "google",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/lib_profiler.so"],
+			shared_libs: ["libcutils", "liblog", "libprotobuf-cpp-full", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "lib_sensor_listener",
+	owner: "google",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/lib_sensor_listener.so"],
+			shared_libs: ["android.frameworks.sensorservice@1.0", "android.hardware.graphics.allocator@3.0", "android.hardware.graphics.mapper@3.0", "android.hardware.sensors@1.0", "android.hidl.allocator@1.0", "libbase", "libcutils", "libhidlbase", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libcamerapostproc",
 	owner: "google",
 	strip: {
@@ -11834,6 +11887,40 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgooglecamera.proto_message.protos.so"],
 			shared_libs: ["libprotobuf-cpp-lite", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgooglecamerahal",
+	owner: "google",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libgooglecamerahal.so"],
+			shared_libs: ["lib_profiler", "libbase", "libcamera_metadata", "libcutils", "libgooglecamerahalutils", "libhidlbase", "liblog", "libmeminfo", "libui", "libutils", "libsync", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgooglecamerahalutils",
+	owner: "google",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libgooglecamerahalutils.so"],
+			shared_libs: ["lib_profiler", "libcamera_metadata", "libcutils", "libgrallocusage", "libhardware", "liblog", "libutils", "libui", "libsync", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -12816,6 +12903,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "android.hardware.camera.provider@2.7-service-google.xml",
+	owner: "google",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.camera.provider@2.7-service-google.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "android.hardware.confirmationui@1.0-service-google.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.confirmationui@1.0-service-google.xml",
@@ -13230,6 +13326,24 @@ cc_prebuilt_binary {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti"],
 			shared_libs: ["liblog", "libcutils", "libutils", "libhidlbase", "android.hardware.bluetooth@1.0", "android.hardware.bluetooth@1.1", "hardware.google.bluetooth.sar@1.0", "hardware.google.bluetooth.bt_channel_avoidance@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.camera.provider@2.7-service-google",
+	owner: "google",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.camera.provider@2.7-service-google"],
+			shared_libs: ["android.hardware.camera.device-V3-ndk", "android.hardware.camera.common-V1-ndk", "android.hardware.camera.provider-V3-ndk", "android.hardware.thermal-V1-ndk", "libbinder_ndk", "libbase", "libcamera_metadata", "libcutils", "libfmq", "libgooglecamerahal", "libgooglecamerahalutils", "libhidlbase", "liblog", "libui", "libutils", "lib_profiler", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
