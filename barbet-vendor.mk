@@ -707,7 +707,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/barbet/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/google/barbet/proprietary/vendor/etc/init/vendor.google.google_battery-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.google_battery-default.rc \
     vendor/google/barbet/proprietary/vendor/etc/init/vendor.google.radioext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.radioext@1.0-service.rc \
-    vendor/google/barbet/proprietary/vendor/etc/init/vendor.google.wifi_ext-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.wifi_ext-service.rc \
     vendor/google/barbet/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/google/barbet/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/google/barbet/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
@@ -1698,7 +1697,6 @@ PRODUCT_PACKAGES += \
     vendor.google.radioext@1.1 \
     vendor.google.radioext@1.2 \
     vendor.google.radioext@1.3 \
-    vendor.google.wifi_ext-V3-ndk \
     vendor.google.wifi_ext@1.0 \
     vendor.qti.googleext.imsext@1.0 \
     vendor.qti.googleext.imsext@2.0 \
@@ -1751,7 +1749,6 @@ PRODUCT_PACKAGES += \
     c2_manifest_vendor.xml \
     manifest_android.hardware.drm-service.widevine-v17.xml \
     manifest_input.processor-service.xml \
-    manifest_wifi_ext_aidl.xml \
     rebootescrow-citadel.xml \
     vendor.google.google_battery-default.xml \
     KmInstallKeybox \
@@ -1793,7 +1790,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.google.google_battery-service \
     vendor.google.radioext@1.0-service \
-    vendor.google.wifi_ext-service-vendor \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
