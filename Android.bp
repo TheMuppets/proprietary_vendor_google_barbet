@@ -11903,7 +11903,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgooglecamerahal.so"],
-			shared_libs: ["lib_profiler", "libbase", "libcamera_metadata", "libcutils", "libgooglecamerahalutils", "libhidlbase", "liblog", "libmeminfo", "libui", "libutils", "libsync", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libmeminfo_shim", "lib_profiler", "libbase", "libcamera_metadata", "libcutils", "libgooglecamerahalutils", "libhidlbase", "liblog", "libmeminfo", "libui", "libutils", "libsync", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
