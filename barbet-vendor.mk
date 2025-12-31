@@ -1653,7 +1653,14 @@ PRODUCT_PACKAGES += \
     libhalide_hexagon_host \
     libhexagon_nn_stub \
     libmotion_ae \
+    libnos \
     libnos_citadeld_proxy \
+    libnos_client_citadel \
+    libnos_datagram \
+    libnos_datagram_citadel \
+    libnos_feature \
+    libnos_transport \
+    libnosprotos \
     libpower_anomaly_data \
     libqmi_modem_svc \
     libqmi_thermal-google-1 \
@@ -1663,6 +1670,11 @@ PRODUCT_PACKAGES += \
     libstpreprocess20 \
     libthermalclient \
     libtouchflow \
+    nos_app_avb \
+    nos_app_identity \
+    nos_app_keymaster \
+    nos_app_keymaster_ctdl \
+    nos_app_weaver \
     qtibus \
     unnhal-acc-adreno \
     unnhal-acc-common \
