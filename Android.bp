@@ -4887,7 +4887,7 @@ cc_prebuilt_library_shared {
                 "libqmi_cci",
                 "libqmi_encdec",
                 "libssc_proto",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -4905,7 +4905,7 @@ cc_prebuilt_library_shared {
                 "libqmi_cci",
                 "libqmi_encdec",
                 "libssc_proto",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -6181,8 +6181,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libcapo_proto.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -6194,8 +6194,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcapo_proto.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -7178,7 +7178,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libbinder",
                 "libdrm",
-                "libtinyxml2",
+                "libtinyxml2-v34",
                 "libhidlbase",
                 "android.frameworks.sensorservice@1.0",
                 "libc++",
@@ -7199,7 +7199,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libbinder",
                 "libdrm",
-                "libtinyxml2",
+                "libtinyxml2-v34",
                 "libhidlbase",
                 "android.frameworks.sensorservice@1.0",
                 "libc++",
@@ -12316,7 +12316,7 @@ cc_prebuilt_library_shared {
                 "android.frameworks.stats-V1-ndk",
                 "libbinder_ndk",
                 "liblog",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libutils",
                 "vendor-pixelatoms-cpp",
                 "libc++",
@@ -12333,7 +12333,7 @@ cc_prebuilt_library_shared {
                 "android.frameworks.stats-V1-ndk",
                 "libbinder_ndk",
                 "liblog",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libutils",
                 "vendor-pixelatoms-cpp",
                 "libc++",
@@ -12659,7 +12659,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libsnsapi.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libssc_proto",
                 "libcutils",
                 "libutils",
@@ -12677,7 +12677,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libsnsapi.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libssc_proto",
                 "libcutils",
                 "libutils",
@@ -12708,7 +12708,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libsnsdiaglog.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "liblog",
                 "libdiag",
                 "libsensorslog",
@@ -12729,7 +12729,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libsnsdiaglog.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "liblog",
                 "libdiag",
                 "libsensorslog",
@@ -12763,7 +12763,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libssc.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libash",
                 "libssc_proto",
                 "liblog",
@@ -12785,7 +12785,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libssc.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libash",
                 "libssc_proto",
                 "liblog",
@@ -12859,7 +12859,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libssc_proto.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -12871,7 +12871,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libssc_proto.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -12900,7 +12900,7 @@ cc_prebuilt_library_shared {
                 "libqmi_common_so",
                 "libqmi_encdec",
                 "libutils",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libssc_proto",
                 "libc++",
                 "libc",
@@ -12917,7 +12917,7 @@ cc_prebuilt_library_shared {
                 "libqmi_common_so",
                 "libqmi_encdec",
                 "libutils",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libssc_proto",
                 "libc++",
                 "libc",
@@ -13763,7 +13763,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libssc",
                 "libssc_proto",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libsensorslog",
                 "libsensorsuez",
                 "android.hardware.sensors@1.0",
@@ -13790,7 +13790,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libssc",
                 "libssc_proto",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libsensorslog",
                 "libsensorsuez",
                 "android.hardware.sensors@1.0",
@@ -14240,7 +14240,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/sensors.ssc.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libash",
                 "libbase",
                 "liblog",
@@ -14278,7 +14278,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/sensors.ssc.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libash",
                 "libbase",
                 "liblog",
@@ -14695,7 +14695,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/vendor-pixelatoms-cpp.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -14707,7 +14707,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor-pixelatoms-cpp.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -19176,7 +19176,7 @@ cc_prebuilt_library_shared {
                 "libnos",
                 "libnosprotos",
                 "libnos_citadeld_proxy",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libteeui_hal_support",
                 "nos_app_keymaster",
                 "libc++",
@@ -19218,7 +19218,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libbinder_ndk",
                 "libcppbor_external",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libnos_citadeld_proxy",
                 "nos_app_keymaster_ctdl",
                 "nos_app_identity",
@@ -19255,7 +19255,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.keymaster@4.1",
                 "libkeymaster4support",
                 "libcrypto",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "nos_app_keymaster_ctdl",
                 "libhidlbase",
                 "libc++",
@@ -19288,7 +19288,7 @@ cc_prebuilt_library_shared {
                 "libnosprotos",
                 "libutils",
                 "android.hardware.oemlock-V1-ndk",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "nos_app_avb",
                 "libbinder_ndk",
                 "libc++",
@@ -19321,7 +19321,7 @@ cc_prebuilt_library_shared {
                 "libnosprotos",
                 "libutils",
                 "android.hardware.oemlock@1.0",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "nos_app_avb",
                 "libc++",
                 "libc",
@@ -19353,7 +19353,7 @@ cc_prebuilt_library_shared {
                 "libnosprotos",
                 "libutils",
                 "android.hardware.weaver-V2-ndk",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "nos_app_weaver",
                 "libnos_citadeld_proxy",
                 "libnos_feature",
@@ -19391,7 +19391,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "android.hardware.weaver-V2-ndk",
                 "libbinder_ndk",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "nos_app_weaver",
                 "libnos_citadeld_proxy",
                 "libc++",
@@ -19456,7 +19456,7 @@ cc_prebuilt_library_shared {
                 "libnosprotos",
                 "libutils",
                 "android.hardware.weaver@1.0",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "nos_app_weaver",
                 "libc++",
                 "libc",
@@ -20189,7 +20189,7 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "lib_sensor_listener",
                 "libutils",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libgooglecamera.proto_message.protos",
                 "libgooglecamera.proto_message.converter.gabc",
                 "libhidlbase",
@@ -20228,7 +20228,7 @@ cc_prebuilt_library_shared {
                 "lib_sensor_listener",
                 "libgooglecamera.proto_message.protos",
                 "libgooglecamera.proto_message.converter.ghawb",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -20326,7 +20326,7 @@ cc_prebuilt_library_shared {
                 "libcdsprpc",
                 "libqdMetaData",
                 "libhardware",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libssc_proto",
                 "libgoog_cpi",
                 "lib_sensor_listener",
@@ -22087,7 +22087,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/google_wifi_firmware_config_info_cc_proto.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -22114,7 +22114,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libbase",
                 "liblog",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libutils",
                 "libcrypto",
                 "google_wifi_firmware_config_info_cc_proto",
@@ -22150,7 +22150,7 @@ cc_prebuilt_library_shared {
                 "libcdsprpc",
                 "libqdMetaData",
                 "libhardware",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libssc_proto",
                 "libgoog_cpi",
                 "lib_sensor_listener",
@@ -22326,7 +22326,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libcutils",
                 "liblog",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libutils",
                 "libc++",
                 "libc",
@@ -22429,7 +22429,7 @@ cc_prebuilt_library_shared {
                 "libcdsprpc",
                 "libqdMetaData",
                 "libhardware",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libssc_proto",
                 "libgoog_cpi",
                 "lib_sensor_listener",
@@ -22480,7 +22480,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libutils",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libsensorslog",
                 "libqmi_common_so",
                 "libqmi_cci",
@@ -22721,7 +22721,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libgooglecamera.proto_message.protos",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -22782,7 +22782,7 @@ cc_prebuilt_library_shared {
                 "libgatm_core",
                 "libgooglecamera.proto_message.protos",
                 "liblog",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "android.hardware.thermal@2.0",
                 "libc++",
                 "libc",
@@ -22811,7 +22811,7 @@ cc_prebuilt_library_shared {
                 "libgooglecamera.proto_message.converter",
                 "libgooglecamera.proto_message.protos",
                 "liblog",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -23187,7 +23187,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libsync",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libgooglecamera.proto_message.protos",
                 "android.hardware.thermal@2.0",
                 "libc++",
@@ -23217,7 +23217,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libsync",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libgooglecamera.proto_message.protos",
                 "libc++",
                 "libc",
@@ -23246,7 +23246,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libsync",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libgooglecamera.proto_message.protos",
                 "libc++",
                 "libc",
@@ -23272,7 +23272,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libgooglecamera.proto_message.protos.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -23383,7 +23383,7 @@ cc_prebuilt_library_shared {
                 "libhwbinder",
                 "liblog",
                 "libmedia_ecoservice",
-                "libtinyxml2",
+                "libtinyxml2-v34",
                 "libutils",
                 "lib_goog_metadata_utils",
                 "pixel-power-ext-V1-ndk",
@@ -23738,7 +23738,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.radio@1.5",
                 "android.hardware.radio.deprecated@1.0",
                 "qtimutex",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libvndksupport",
                 "libbase",
                 "libz",
@@ -24740,7 +24740,7 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_rfsa {
-    name: "capi_v2_aptX_Classic",
+    name: "vendor_lib_rfsa_adsp_capi_v2_aptX_Classic_so",
     filename: "capi_v2_aptX_Classic.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so",
@@ -24749,7 +24749,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "capi_v2_aptX_HD",
+    name: "vendor_lib_rfsa_adsp_capi_v2_aptX_HD_so",
     filename: "capi_v2_aptX_HD.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so",
@@ -24758,7 +24758,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libapps_mem_heap",
+    name: "vendor_lib_rfsa_adsp_libapps_mem_heap_so",
     filename: "libapps_mem_heap.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so",
@@ -24767,7 +24767,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libbitml_nsp_skel",
+    name: "vendor_lib_rfsa_adsp_libbitml_nsp_skel_so",
     filename: "libbitml_nsp_skel.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_skel.so",
@@ -24776,7 +24776,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libcamera_nn_skel",
+    name: "vendor_lib_rfsa_adsp_libcamera_nn_skel_so",
     filename: "libcamera_nn_skel.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/libcamera_nn_skel.so",
@@ -24785,7 +24785,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libcvpdsp_skel",
+    name: "vendor_lib_rfsa_adsp_libcvpdsp_skel_so",
     filename: "libcvpdsp_skel.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/libcvpdsp_skel.so",
@@ -24794,7 +24794,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdspCV_skel",
+    name: "vendor_lib_rfsa_adsp_libdspCV_skel_so",
     filename: "libdspCV_skel.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so",
@@ -24803,7 +24803,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdsp_streamer_binning",
+    name: "vendor_lib_rfsa_adsp_libdsp_streamer_binning_so",
     filename: "libdsp_streamer_binning.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so",
@@ -24812,7 +24812,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libfastcvadsp",
+    name: "vendor_lib_rfsa_adsp_libfastcvadsp_so",
     filename: "libfastcvadsp.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so",
@@ -24821,7 +24821,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libfastcvdsp_skel",
+    name: "vendor_lib_rfsa_adsp_libfastcvdsp_skel_so",
     filename: "libfastcvdsp_skel.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so",
@@ -24830,7 +24830,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libhexagon_nn_skel",
+    name: "vendor_lib_rfsa_adsp_libhexagon_nn_skel_so",
     filename: "libhexagon_nn_skel.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.so",
@@ -24839,7 +24839,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsns_device_mode_skel",
+    name: "vendor_lib_rfsa_adsp_libsns_device_mode_skel_so",
     filename: "libsns_device_mode_skel.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so",
@@ -24848,7 +24848,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsns_low_lat_stream_skel",
+    name: "vendor_lib_rfsa_adsp_libsns_low_lat_stream_skel_so",
     filename: "libsns_low_lat_stream_skel.so",
     owner: "google",
     src: "proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so",
@@ -25782,7 +25782,7 @@ cc_prebuilt_binary {
                 "libnos",
                 "libnosprotos",
                 "libnos_citadeld_proxy",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "nos_app_identity",
                 "nos_app_keymaster_ctdl",
                 "android.hardware.keymaster-V3-ndk",
@@ -25927,7 +25927,7 @@ cc_prebuilt_binary {
                 "libnos",
                 "libnosprotos",
                 "libutils",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "android.hardware.keymaster@4.0",
                 "android.hardware.keymaster@4.1",
                 "android.hardware.keymaster@4.1-impl.nos",
@@ -26050,7 +26050,7 @@ cc_prebuilt_binary {
                 "libnos",
                 "libnos_citadeld_proxy",
                 "libnosprotos",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libutils",
                 "nos_app_keymaster",
                 "libc++",
@@ -27132,7 +27132,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/sensors.qti",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.12-vendorcompat",
                 "liblog",
                 "libdiag",
                 "libssc",
@@ -27439,7 +27439,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "android.frameworks.stats-V1-ndk",
                 "libbinder_ndk",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.12-vendorcompat",
                 "libtouchflow",
                 "server_configurable_flags",
                 "vendor-pixelatoms-cpp",
